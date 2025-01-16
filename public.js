@@ -17,6 +17,9 @@ fetch(url)
         let pangalan = document.getElementById("name").textContent = data.name;
         let first = document.getElementById("name");
         first.style.display = "block";
+    } 
+    else{
+        alert(`${user} dont exist madapaker`);
     }
 
     if(!data.held_items[0]){
