@@ -30,5 +30,14 @@ fetch(url)
         let gamits = document.getElementById("gamit");
         gamits.style.display = "block";
     }
+    
+    if (!data.weight) {
+  let weightElement = document.getElementById("bug-at").textContent = "No weight data found";
+} 
+else {
+  let weightElement = document.getElementById("bug-at").textContent = "Weight: " + data.weight; 
+  let weightDisplay = document.getElementById("bug-at");
+  weightDisplay.style.display = "block";
+}
 })
 })
