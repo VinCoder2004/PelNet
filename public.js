@@ -35,7 +35,7 @@ fetch(url)
   let weightElement = document.getElementById("bug-at").textContent = "No weight data found";
 } 
 else {
-  let weightElement = document.getElementById("bug-at").textContent = "Weight: " + data.weight; 
+  let weightElement = document.getElementById("bug-at").textContent = "Weight: " + data.weight / 10 + "kg";
   let weightDisplay = document.getElementById("bug-at");
   weightDisplay.style.display = "block";
 }
