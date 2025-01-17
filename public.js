@@ -32,11 +32,11 @@ fetch(url)
     }
     
     if (!data.weight) {
-  let weightElement = document.getElementById("bug-at").textContent = "No weight data found";
+  let weightElement = document.getElementById("bugAt").textContent = "No weight data found";
 } 
 else {
-  let weightElement = document.getElementById("bug-at").textContent = "Weight: " + data.weight / 10 + "kg";
-  let weightDisplay = document.getElementById("bug-at");
+  let weightElement = document.getElementById("bugAt").textContent = "Weight: " + data.weight / 10 + "kg";
+  let weightDisplay = document.getElementById("bugAt");
   weightDisplay.style.display = "block";
 }
 })
