@@ -39,5 +39,7 @@ else {
   let weightDisplay = document.getElementById("bugAt");
   weightDisplay.style.display = "block";
 }
+let typeElement = document.getElementById("species");
+typeElement.textContent =`Type: ${data.types[0].type.name}`;
 })
 })
