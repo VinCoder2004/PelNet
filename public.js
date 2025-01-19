@@ -22,14 +22,15 @@ fetch(url)
         alert(`${user} dont exist madapaker`);
     }
 
+
     if(!data.held_items[0]){
         let gamit = document.getElementById("gamit").textContent = "No item found"
     }
     else{
-        let gamit = document.getElementById("gamit").textContent = data.held_items[1].item.name;
+        let gamit = document.getElementById("gamit").textContent = data.held_items[0].item.name;
         let gamits = document.getElementById("gamit");
         gamits.style.display = "block";
-    }
+   }
     
     if (!data.weight) {
   let weightElement = document.getElementById("bugAt").textContent = "No weight data found";
