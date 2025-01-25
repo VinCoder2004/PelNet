@@ -24,7 +24,9 @@ html, body {
     border-bottom: 5px solid green;
     border-right: 5px solid yellow;
     border-left: 5px solid blue;
-    background-color:#CBC90E;
+    background: linear-gradient(90deg, #FFF700, #FFD700, #FFC300);
+
+
 
     
 }
