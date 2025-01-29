@@ -137,4 +137,10 @@ body, html {
   .mainCont {
     width: 300px;
   }
+.cont #pokemonSprite{
+  border:1px solid black;
+  background:url(/pik.jpeg);
+  background-size:cover;
+  background-position: -34px;
+}
 }
